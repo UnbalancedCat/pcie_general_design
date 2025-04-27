@@ -1,0 +1,22 @@
+*
+!*/
+
+# track this file or dic
+!.gitignore
+!readme.md
+
+doc/**
+!others/**
+
+# vivado
+!pcie_general_design.xpr
+
+## srcs
+!pcie_general_design.srcs/constrs_1/**
+
+!pcie_general_design.srcs/sources_1/ip/*/*.xci
+!pcie_general_design.srcs/sources_1/ip/*/*.coe
+
+!pcie_general_design.srcs/sources_1/new/**
+
+!pcie_general_design.srcs/sources_1/bd/**
